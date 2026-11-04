@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bondrewd",
+  "version": "${version}",
+  "name": "Bondrewd: Lord of Dawn",
+  "description": "A Made in Abyss inspired boss: Bondrewd, his Umbra Hand, and the Curse of the Abyss. Unofficial fan mod.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bondrewd.BondrewdMod"],
+    "client": ["com.bondrewd.client.BondrewdClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
